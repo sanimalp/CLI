@@ -1,4 +1,4 @@
-package com.test;
+package com.main;
 
 import java.io.IOException;
 
@@ -9,6 +9,7 @@ import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
+import com.clients.FlickrClient;
 import com.google.api.client.http.javanet.NetHttpTransport;
 
 public class CLIMain {
